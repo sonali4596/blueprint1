@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BluePrint</title>
+ <meta charset="utf-8" >
+  <meta name="author" content="sonali sinha"/>
+  <meta name="description" content="sign up/login page"/>
+  <meta name="viewport" content="width=device-width, initial-scale" />
+   <link rel="stylesheet" href="tourist.css"> 
+    </head>
+    <body>
+    <div class="touristplace">
+        <div class="sa124413112018">
+            <div class="sa030814112018">
+                <!--upper div-->
+                <div class="upperdiv">
+                  <div>
+                    <div class="sa031014112018">
+                        <h1> welcome </h1>    
+                    </div>
+                   </div>
+                    <div>
+                      <div class="list_directions">
+                        
+                        <div>
+                            
+                            <div class="sa032114112018 ">
+                                <div class="northindia">
+                                    <a href="#northindia.php" style="type:none">NORTH INDIA</a>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="sa032214112018">
+                                <div class="southindia">
+                                    <a href="#southindia.php">SOUTH INDIA</a>            
+                                </div>
+                            </div>
+                            <div class="sa032314112018">
+                                <div class="eastindia">
+                                    <a href="eastindia">EAST INDIA</a>            
+                                </div>
+                            </div>
+                            <div class="sa032414112018">
+                                <div class="westindia">
+                                    <a href="#WESTindia">WEST INDIA</a>            
+                                </div>
+                            </div>
+                            <div class="sa032514112018">
+                                <div class="unionterritories">
+                                    <a href="#union_territories">UNION TERRITORIES</a>  
+                                </div>
+                            </div>
+                         </div>
+                      </div> 
+                      
+                      
+                  </div>
+                
+                </div>
+                <div>
+                <div class="sa033214112018 Aa201811142018">
+                    <div class="Aa201811142018">
+                    <div class="lowerdiv Aa201811142018">
+                        <div class="Aa201811142018">
+                        <div class="sa043214112018">
+                            <div class="sildeshow" style="width: 500px">
+                                <div>
+                                 <div class="sa043614112018">
+                                    <div>
+                                    <div class="slides fade">
+                                       <div class="slidenumber">1/5</div>
+                                       <img src="touristplace/tajmahal.jpg" style="width:100%">
+                                       <div cass="texcaption">north india</div>
+                                     </div>
+                                     </div>
+                                    <div>
+                                    <div class="slides fade">
+                                       <div class="slidenumber">2/5</div>
+                                       <img src="touristplace/westindia.jpg" style="width:100%">
+                                       <div cass="texcaption">West india</div>
+                                    </div>
+                                    </div>
+                                    <div>
+                                    <div class="slides fade">
+                                       <div class="slidenumber">3/5</div>
+                                       <img src="touristplace/union.jpg" style="width:100%">
+                                       <div cass="texcaption">union territories</div>
+                                     </div>
+                                     </div>
+                                     <div>
+                                     <div class="slides fade">
+                                       <div class="slidenumber">4/5</div>
+                                       <img src="touristplace/southindia.jpg" style="width:100%">
+                                       <div cass="texcaption">South India</div>
+                                     </div>
+                                     </div>
+                                     <div>
+                                     <div class="slides fade">
+                                       <div class="slidenumber">5/5</div>
+                                       <img src="touristplace/southindia.jpg" style="width:100%">
+                                       <div cass="texcaption">East India</div>
+                                     </div>
+                                     </div>
+                                     <div>
+                                         <!-- Next and previous buttons -->
+                                         <a class="prev" onclick="addslides(-1)">&#10094;</a>
+                                         <a class="next" onclick="addslides(1) "> &#10095;</a>
+                                     </div>
+                                </div>
+                                </div>
+                            
+                            </div>
+                            <div class="dots">
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span> 
+                                <span class="dot" onclick="currentSlide(2)"></span> 
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+                </div>
+            
+            </div>
+        
+        
+        
+        
+        </div>
+    </div>
+    <script>
+        
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function addslides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+        
+    </script>
+    </body>
+</html>

@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+    background-color: aliceblue;
+    background font-family: serif,sans-serif;
+}
+.upperdiv{
+ background-image: url(headerimages/union%20territories.jpg);
+    height: 330px;
+    background-attachment: relative;
+    padding-top: 21px;
+    background-size: 100% 382px;
+    background-repeat: no-repeat;
+}
+.list_directions{
+   width: 100%;
+    overflow-x: auto;
+    text-align: center;
+    padding-left: 300px;
+    min-height: 130px;
+    padding-top: 135px;
+}
+.touristplaces,.food,.festival{
+    float: left;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+    display: inline-block;
+    float:left;
+    background-color: aqua;
+    border-radius:10px;
+    margin-right: 10px;
+    }
+.festival{
+    margin-right: 0px;
+}
+.touristplaces a,.food a,.festival a{
+    text-decoration: none;
+}
+.touristplaces:focus ,.food:focus,.festival:focus{
+    background-color: rgba(39,100,159,0.8);
+    color: white;
+}
+.slideshow1,.slideshow2,.slideshow3{
+    height: 310px;
+    margin: 50px;
+    width: 80%;
+    margin-left: 129px;
+    padding-top: 22px;
+    overflow: hidden;
+}
+.slideshow-container{
+    width: 300%;
+    height: 310px;
+    overflow: hidden;
+    animation:slideshow 5s infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes slideshow{
+    0%{
+        right: 063
+    }
+    30%{
+        right: 066 
+    }
+    33%{
+        right: 100%;
+    }
+    63%{
+        right: 100%;
+    }
+    66%{
+        right: 200%;
+    } 
+    100%{
+        right: 200%;
+    }
+}
+.mySlides{
+    position: relative;
+    width: 33.2%;
+    height: 310px;
+    display: inline-block;
+}
+.mySlides img{
+    width: 100%;
+    height: 310px;
+}
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 273px;
+    padding: 0px;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 10px 10px 0;
+    user-select: none;
+}
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 272px;
+    padding: 0px;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 10px 10px 0;
+    user-select: none;
+    margin-left: 893px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,255,255,1);
+}
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.button{
+        float: right;
+}
+.username{
+ background-color: aqua;
+    color: black;
+    padding: 3px 2px;   
+}
+.logout{
+ background-color: aqua;
+    color: black;
+    padding: 3px 11px;   
+}
+

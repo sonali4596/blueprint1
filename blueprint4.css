@@ -1,0 +1,226 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+    background-color:aliceblue;
+    background font-family:sans-serif,serif;
+    
+}
+.main{
+   
+    background-image:url(headerimages/incredibleindia.jpg);
+    height: 330px;
+    background-attachment: relative;
+    padding-top: 21px;
+    background-size: 100% 382px;
+    background-repeat: no-repeat;
+    
+}
+.upperdiv{
+    
+    height:100px;
+    padding-top: 200px;
+    text-decoration-color:black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login1{
+ background-color:darkseagreen;
+background font-family:sans-serif,serif;
+   float: right; 
+    height:50px;
+    width:200px;
+    margin-top: 106px;
+    margin-right: 24px;
+}
+.signup1{
+ background-color:lightskyblue;
+background font-family:sans-serif,serif;
+float:right;
+    height:50px;
+    width: 180px;
+}
+hr {
+    border: 1px solid bisque;
+    margin-bottom: 25px;
+}
+h2{
+ font-size:50px; 
+}
+h1{
+    background-color: beige;
+    margin-top: -97px;
+    font-size: 52px;
+    width: 955px;
+    margin-left: 59px;
+}
+.cancelbtn{
+    background-color: orangered;
+    height:50px;
+    width:200px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration-color: aliceblue;
+    font-size: 20px;
+    
+}
+.submitbtn{
+    background-color: lawngreen;
+    height:50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    font-weight:bold;
+    text-decoration-color: aliceblue;
+}
+.reset{
+    background-color: skyblue;
+    height:50px;
+    width:200px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    font-weight:bold;
+    text-decoration-color: aliceblue;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=email]:focus,input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+input[type=text], input[type=password],
+input[type=password],input[type=email],input[type=tel]
+
+{
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.sa153110112018{
+    border-radius: 37px;
+    padding:20px;
+    border-color:aqua;
+    float:right;
+    background-color: aqua;
+}
+
+ .login
+    {background-color: #4CAF50;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width:200px;
+        font-size: 20px;
+    }
+
+button:hover {
+    opacity: 0.8;
+}
+.imgcontainer {
+    text-align: center;
+    mar`~~~~~`  `gin: 24px 0 12px 0;
+    position: relative;
+}
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+.india_image{
+        margin-top:10px;
+    /* background-color: brown; */
+    width: 26px;
+}
+.img{
+    width: 601px;
+    margin-left: 10px;
+}

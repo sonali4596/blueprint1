@@ -1,0 +1,167 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+.wrapper,.sa214220112018,.main,.sa100621112018
+{
+    margin: 0px;
+   min-height:200px;
+   width: 100%;
+
+}
+.upper_div{
+    margin: 0px;
+   min-height:200px;
+   width: 99%;
+    background-color:aqua;
+    
+    
+    background-image: url(headerimages/food.jpg);
+    height: 330px;
+    background-attachment: relative;
+    padding-top: 21px;
+    background-size: 100% 382px;
+    background-repeat: no-repeat;
+    
+   
+    
+    
+}
+
+
+.heading{
+    text-align: center;
+    font-size:30px;
+    padding-top:80px;
+}
+.sa153621112018,.lower_div,.sa153721112018{
+    width:100%;
+    min-height: 300px;
+    height: auto;
+
+}
+.first_image{
+    margin: 50px;
+    height: 500px;
+    width: 70%;
+    border-radius: 30px;
+    border-color: aqua;
+    border-width: 30px;
+    background-color: burlywood;
+}
+.second_image,.third_image,.fourth_image,.fifth_image,.sixth_image{
+    margin: 50px;
+    height: 500px;
+    width: 70%;
+    border-radius: 30px;
+    border-color: aqua;
+    border-width: 30px;
+        border-radius: 30px;
+    border-color: aqua;
+    border-width: 30px;
+    background-color: burlywood;
+}
+.image,.images{
+   width: 100%;
+    height:350px;
+    overflow: hidden;
+}
+img{
+    float: left;
+    width: 100%;
+    height: 350px
+}
+p{
+    padding: 20px;
+    font-style: italic;
+}
+.Aa201811232308Av_{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Aa201811232310Aa_{
+    float: left;
+    width: 30%;
+    margin: 0px;
+    margin-left:35px;
+    min-height: 500px;
+    height: auto;
+}
+.content{
+    overflow: hidden;
+    width: 100%;
+    height:149px;
+}
+.Aa201811232355Ar_{
+   text-align: center;
+}
+.Aa201811232355Ar_ button{
+    cursor: pointer;
+    width: 30%;
+    border:1px solid rgba(39,100,159,0.8);
+    border-radius: 10px;
+    background-color: rgba(39,100,159,0.8);
+    font-size: 17px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+}
+h1{
+        width: 981px;
+    color: aliceblue;
+    font-size: 89px;
+    margin-top: 32px;
+    background-color: slategrey;
+    margin-left: 71px;
+    border-radius: 54px;
+}
+.button{
+        float: right;
+}
+.username{
+ background-color: aqua;
+    color: black;
+    padding: 3px 2px;   
+}
+.logout{
+ background-color: aqua;
+    color: black;
+    padding: 3px 11px;   
+}
+

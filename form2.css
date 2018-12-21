@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+    background-image: url(headerimages/form.jpg);
+   background-attachment: relative;
+    padding-top: 21px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.main{
+       background-color: aqua;
+    border-radius: 10px;
+    min-height: 439px;
+    width: 24%;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left: 423px;
+    
+}
+
+input[type=text]:focus, input[type=file]:focus,textarea :focus {
+    background-color: #ddd;
+    outline: none;
+}
+input[type=text], textarea,
+input[type=file]
+
+{
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+select{
+        width: 88px;
+    height: 33px;
+    
+}
+h1{    margin: 30px;
+    font-size: 31px;
+    /* text-align: center; */
+    color: aliceblue;
+    background-color: black;
+    margin-left: 342px;
+    width: 542px;
+    padding: 5px;
+}
